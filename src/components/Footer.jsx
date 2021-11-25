@@ -119,20 +119,19 @@ const Footer = () => {
                     <ListItem>My Account</ListItem>
                     <ListItem>Order Tracking</ListItem>
                     <ListItem>Wishlist</ListItem>
-                    <ListItem>Wishlist</ListItem>
                     <ListItem>Terms</ListItem>
                 </List>
             </Center>
             <Right>
                 <Title>Contact</Title>
                 <ContactItem>
-                    <Room style={{ marginRight: "10px" }} /> 622 Dixie Path , South Tobinchester 98336
+                    <Room style={{ marginRight: "10px" }} /> Varna, Bulgaria
                 </ContactItem>
                 <ContactItem>
-                    <Phone style={{ marginRight: "10px" }} /> +1 234 56 78
+                    <Phone style={{ marginRight: "10px" }} /> 0891 234 567
                 </ContactItem>
                 <ContactItem>
-                    <MailOutline style={{ marginRight: "10px" }} /> contact@lama.dev
+                    <MailOutline style={{ marginRight: "10px" }} /> iskren.ivanov@hotmail.com
                 </ContactItem>
                 <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
             </Right>
