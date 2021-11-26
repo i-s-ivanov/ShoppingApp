@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import Announcement from "../components/Announcement";
+import Navbar from "../components/Navbar";
 import { mobile } from "../responsive";
 
 const Container = styled.div`
@@ -31,6 +33,7 @@ const Title = styled.h1`
 const Form = styled.form`
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 10px;
 `;
 
 const Input = styled.input`
@@ -52,6 +55,7 @@ const Button = styled.button`
     color: white;
     cursor: pointer;
     width: 40%;
+    margin-top: 10px;
 `;
 
 
@@ -59,6 +63,8 @@ const Button = styled.button`
 const Register = () => {
     return (
         <div>
+            <Announcement />
+            <Navbar />
             <Container>
                 <Wrapper>
                     <Title>REGISTER</Title>
