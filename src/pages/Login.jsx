@@ -64,6 +64,8 @@ const Link = styled.a`
 const Login = () => {
     return (
         <div>
+            <Announcement />
+            <Navbar />
             <Container>
                 <Wrapper>
                     <Title>SIGN IN</Title>

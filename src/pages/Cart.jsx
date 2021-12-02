@@ -30,7 +30,7 @@ const TopButton = styled.button`
     cursor: pointer;
     border: ${(props) => props.type === "filled" && "none"};
     background-color: ${(props) =>
-            props.type === "filled" ? "black" : "transparent"};
+        props.type === "filled" ? "black" : "transparent"};
     color: ${(props) => props.type === "filled" && "white"};
 `;
 
@@ -122,7 +122,7 @@ const Hr = styled.hr`
 
 const Summary = styled.div`
     flex: 1;
-    border: 0.5px solid lightgray;
+    border: 0.5px solid lightgrey;
     border-radius: 10px;
     padding: 20px;
     height: 50vh;
